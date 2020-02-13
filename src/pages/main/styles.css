@@ -1,0 +1,9 @@
+.valores h1 {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    line-height: 1.05em;
+    font-size: 3em;
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    border-bottom: 2px solid #122AB2;
+}
