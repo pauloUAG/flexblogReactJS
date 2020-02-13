@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Menu-bg {
+    background: #2C70FF;
+}
+
+.Menu-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+}
+
+.titulo-menu {
+    color: white;
+}
+
+.opcoes {
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
+}
+
+.opcoes a {
+    color: white;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-left: 20px;
+}
