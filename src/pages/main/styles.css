@@ -1,9 +1,87 @@
-.valores h1 {
+.section-um {
     max-width: 960px;
     margin: 0 auto;
+}
+
+.valores h1 {
     padding: 60px 0;
     line-height: 1.05em;
     font-size: 3em;
     font-family: "Nunito", Helvetica, Arial, sans-serif;
     border-bottom: 2px solid #122AB2;
+}
+
+.sobre-container {
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #122ab2;
+}
+
+.sobre-info {
+    flex: 1 1 300px;
+    padding: 0 10px;
+}
+
+.sobre-info h1 {
+    font-size: 3em;
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    margin-bottom: .5em;
+}
+
+.sobre-info p {
+    font-size: 1.25em;
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    color: #7c7c7c;
+}
+
+.sobre-imagens {
+    flex: 1 1 160px;
+}
+
+.sobre-imagens2 {
+    flex: 1 1 160px;
+    margin: 0 10px;
+}
+
+.produtos-container {
+    padding: 0 10px;
+}
+
+.produtos-container h1 {
+    padding: 60px 0;
+    font-size: 3em;
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produto-item {
+    width: 300px;
+    background: #F7F7F7;
+}
+
+.produtos h2 {
+    font-size: 3em;
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    color: #7c7c7c;
+    padding: 60px 0;
+    margin-left: 10px;
+}
+
+.white {
+    border-top: 10px solid #7c7c7c;
+    margin-right: 20px;
+}
+
+.black {
+    border-top: 10px solid black;
+    margin-right: 20px;
+}
+
+.purple {
+    border-top: 10px solid purple;
 }
