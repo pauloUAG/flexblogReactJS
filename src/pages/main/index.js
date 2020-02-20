@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles.css'
-import samurai from '../../assets/samurax'
+import samurai from '../../assets/LaraCroftLegend.jpg'
+import katana from '../../assets/katana.jpg'
 
 const Main = () => {
     return (
@@ -24,21 +25,24 @@ const Main = () => {
                 <div className="sobre-imagens">
                     <img src={samurai} alt="samuraiUm" />
                 </div>
-                {/* <div className="sobre-imagens-2">
+                <div className="sobre-imagens-2">
                     <img src={samurai} alt="samuraiDois"/>
-                </div> */}
+                </div>
             </div>
             <div className="produtos-container">
                 <h1>Produtos</h1>
                 <div className="produtos">
                     <div className="produto-item white">
                         <h2>White</h2>
+                        <img src={katana} alt="katana"/>
                     </div>
                     <div className="produto-item black">
                         <h2>Black</h2>
+                        <img src={katana} alt="katana"/>
                     </div>
                     <div className="produto-item purple">
                         <h2>Purple</h2>
+                        <img src={katana} alt="katana"/>
                     </div>
                 </div>
             </div>
