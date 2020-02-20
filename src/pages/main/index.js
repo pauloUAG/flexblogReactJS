@@ -46,6 +46,11 @@ const Main = () => {
                     </div>
                 </div>
             </div>
+            <div className="precos-container">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </section>
     );
 }

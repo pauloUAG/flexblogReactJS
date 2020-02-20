@@ -2,7 +2,8 @@ import React from 'react';
 import {BrowserRouter} from 'react-router-dom';
 import Header from './components/header';
 import Menu from './components/menu';
-import Main from './pages/main'
+import Main from './pages/main';
+import Preco from './components/mainPreco';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <Header />
     <Menu />
     <Main />
+    <Preco />
     </BrowserRouter>
   );
 }
