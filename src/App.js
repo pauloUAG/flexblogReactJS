@@ -6,6 +6,7 @@ import Main from './pages/main';
 import Preco from './components/mainPreco';
 import Qualidade from './components/mainQualidade';
 import NewsL from './components/mainNewsLetter';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <Preco />
     <Qualidade />
     <NewsL />
+    <Footer />
     </BrowserRouter>
   );
 }

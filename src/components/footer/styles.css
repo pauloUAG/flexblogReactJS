@@ -1,0 +1,13 @@
+.Footer {
+    background: blue;
+}
+
+.footerSection {
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    padding: 80px 0;
+}
