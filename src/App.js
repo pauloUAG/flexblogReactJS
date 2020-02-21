@@ -5,6 +5,7 @@ import Menu from './components/menu';
 import Main from './pages/main';
 import Preco from './components/mainPreco';
 import Qualidade from './components/mainQualidade';
+import NewsL from './components/mainNewsLetter';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Main />
     <Preco />
     <Qualidade />
+    <NewsL />
     </BrowserRouter>
   );
 }
