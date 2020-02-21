@@ -1,0 +1,43 @@
+.qualidadeSection {
+    max-width: 960px;
+    margin: 30px auto;
+    
+}
+
+.qualiCima {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.qualiBaixo {
+    display: flex;
+}
+
+.qualidade {
+    flex: 1 1 160px;
+    padding: 20px 20px;
+}
+
+.qualidade h1 {
+    color: #A4A4A4;
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.qualidade h1::before {
+    content: '';
+    display: inline-block;
+    width: 9px;
+    height: 30px;
+    background: #2c70ff;
+    margin-right: 8px;
+    
+}
+
+.qualidade p {
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    font-size: 1.25em;
+    color: #A4A4A4;
+}
